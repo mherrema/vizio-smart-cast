@@ -284,7 +284,7 @@ let SMARTCAST = function smartcast(host, authKey) {
                 return this.control.keyCommand(3, 1);
             },
             right: () => {
-                return this.control.keyCommand(3, 5);
+                return this.control.keyCommand(3, 7);
             },
             ok: () => {
                 return this.control.keyCommand(3, 2);
